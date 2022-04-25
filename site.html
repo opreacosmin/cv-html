@@ -3,102 +3,15 @@
 
 <head>
     <title>Curriculum Vitae</title>
-    <style>
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-            list-style: none;
-            font-family: "Montserrat", sans-serif;
-        }
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
 
-        body {
-            background-image: url("background-img.jpg");
-            font-size: 16px;
-            line-height: 22px;
-            color: black;
-        }
-
-        .bold {
-            font-weight: 700;
-            font-size: 19px;
-            text-transform: uppercase;
-        }
-
-        .resume .resume_right .bold {
-            color: black;
-        }
-
-        .resume {
-            width: 800px;
-            height: auto;
-            display: flex;
-            margin: 30px auto;
-        }
-
-        .resume .resume_left {
-            background: white;
-            width: 300px;
-        }
-
-        .resume .resume_right{
-            border-left: 1px solid black;
-            width: 500px;
-            background: #fff;
-            padding: 25px;
-        }
-
-        .resume .resume_left .resume_profile {
-            width: 100%;
-            height: 300px;
-        }
-
-        .resume .resume_left .resume_profile img {
-            width: 100%;
-            height: 100%;
-        }
-
-        .resume .resume_left .resume_content {
-            padding: 0 25px;
-        }
-
-        .resume .title {
-            margin-bottom: 20px;
-        }
-
-        .resume .resume_left .bold {
-            color: black;
-        }
-
-        .resume .resume_left .data {
-            color: black;
-        }
-
-        .resume .resume_left .text {
-            color: black;
-            display:inline-block;
-        }
-
-        .resume .resume_left .resume_item {
-            padding: 25px 0;
-            border-bottom: 1px solid black;
-        }
-
-        .resume .resume_right .resume_item {
-            padding: 25px 0;
-            border-bottom: 0.5px solid black;
-        }
-
-
-
-
-
-    </style>
 </head>
 
 <body>
-<h1 style="text-align:center">
-    Curriculum Vitae </h1>
+
 <div class="resume">
     <div class="resume_left">
 
@@ -107,35 +20,47 @@
         </div>
 
         <div class="resume_content">
-            <div class="resume_item resume_info">
+            <div class="resume_item">
+                <div class="bold">Oprea Cosmin Alexandru</div>
                     <ul>
-                        <li>
-                            <div class="data" >Oprea Cosmin Alexandru</div>
-                        </li>
-                        <li>
-                            <img src="location-icon-jpg-1.jpg" alt="location icon" width="27" height="28" >
-                            <div class="text"> 10 Emil Racovita Street,Bucuresti,Romania</div>
-                        </li>
+
                         <li> <img src="phone-icon-jpg-1.jpg" alt="phone icon" width="18" height="21">
                             <div class="text">+40 734315813</div>
                         </li>
-                        <li> <img src="email-icon-jpg-10.jpg" alt="phone icon" width="23" height="28" >
-                            <div class="text">opreacosmin2000@gmail.com</div>
+                        <li>
+                            <img src="email-icon-jpg-10.jpg" alt="phone icon" width="25" height="28" >
+                            <p class="text" >opreacosmin2000@</p>
+                            <p class="text">gmail.com</p>
                         </li>
                         <li>
-                            <div class="data">Date of birth: 20/03/2002</div>
+                            <div class="data">
+                                <img src="github_icon.png" alt="github icon" width="27" height="28" >
+                                <p class="text">Github:</p> <a href="https://github.com/opreacosmin/">github/opreacosmin</a>
+                            </div>
                         </li>
+
                         <li>
-                            <div class="data">Nationality: Romanian</div>
+                            <img src="linkedin-icon.png" alt="linkedin icon" width="27" height="28" >
+                            <p class="text">Linkedin:</p><a href="https://www.linkedin.com/in/oprea-cosmin-alexandru-33b548195/">oprea cosmin alexandru@linkedin</a>
                         </li>
+
+                        <li>
+                            <img src="fb-icon.jpg" alt="fb icon" width="30" height="20" > <p class="text">Facebook</p>
+                            <a href="https://www.facebook.com/cosminutzu.alexandru.9/">cosminalexandru@facebook</a>
+                        </li>
+
                     </ul>
                 </div>
 
-            <div class="resume_item resume_skills">
-                <div class="title">
-                    <p class="bold">Skills</p>
-                    <div class="data">Programming languages: Java, C++, Python, SQL, HTML, PHP, CSS</div>
-                    <div class="data">Soft skills:</div>
+            <div class="resume_item">
+
+                    <p class="bold">Competences</p>
+
+                    <div class="title">Programming languages:
+                    </div>
+                    <p>Java, C++, Python, SQL, HTML, PHP, CSS</p>
+
+                    <div class="title">Soft skills:</div>
                     <ul>
                         <li>-Active listening</li>
                         <li>-Problem solving</li>
@@ -143,45 +68,27 @@
                         <li>-Project management</li>
                         <li>-Teamwork</li>
                     </ul>
-                </div>
+
             </div>
 
             <div class="resume_item">
                 <div class="title">
                     <p class="bold">Languages</p>
                 </div>
-                <div class="data">Romanian:Native</div>
-                <div class="data">German:B2</div>
-                <div class="data">English:C1</div>
-            </div>
-
-            <div class="resume_item resume_social">
-                <div class="title">
-                    <p class="bold">Social</p>
-                </div>
                 <ul>
-
-
-
                     <li>
-                        <div class="data">
-                            <img src="github_icon.png" alt="fb icon" width="27" height="28" >
-                            <p class="text">Github:</p> <a href="https://github.com/opreacosmin/cv-html/blob/master/site.html">github/opreacosmin</a>
-                        </div>
+                        <div class="text">Romanian:Native</div>
                     </li>
-
                     <li>
-                        <img src="linkedin-icon.png" alt="fb icon" width="27" height="28" >
-                            <p class="text">Linkedin:</p><a href="https://www.linkedin.com/in/oprea-cosmin-alexandru-33b548195/">oprea cosmin alexandru@linkedin</a>
+                        <div class="text">German:B2</div>
                     </li>
-
                     <li>
-                        <img src="fb-icon.jpg" alt="fb icon" width="27" height="28" > <p class="text">Facebook</p>
-                        <a href="https://www.facebook.com/cosminutzu.alexandru.9/">cosminalexandru@facebook</a>
+                        <div class="text">English:C1</div>
                     </li>
-
                 </ul>
+
             </div>
+
         </div>
     </div>
 
@@ -189,23 +96,23 @@
 
     <div class="resume_right">
         <div class="resume_item" >
-        <div class="title">
+
             <p class="bold">about me</p>
             <p>I am a creative person that likes to see life with a positive touch
                 of humour. Listening to others has shaped me as patient and
                 reliable, as I love to help the ones around me. Currently, I am looking
                 forward to gaining experience in the IT sector, and improving
                 my skills.</p>
-        </div>
+
     </div>
             <div class="resume_item resume_education">
                 <div class="title">
                     <p class="bold">Education</p>
                 </div>
-            <p>  2020 - present :</p>
-            <p> BACHELOR IN INFORMATICS-GERMAN LINE |
-                Faculty of Mathematics and Computer Science, Babes-Bolyai University,
-                Cluj-Napoca, Romania </p>
+
+            <p class="title"> BACHELOR IN INFORMATICS-GERMAN LINE</p>
+              <p>  Faculty of Mathematics and Computer Science, Babes-Bolyai University,
+                Cluj-Napoca, Romania | 2020-present </p>
 
 
         </div>
@@ -215,14 +122,13 @@
     </div>
         <ul>
             <li>
-    <p>Proedus PMB:
-        Volunteer in the field of events (2016-2018)
-    </p>
+    <p class="title">Proedus PMB 2016-2018</p>
+        <p>Volunteer in the field of events </p>
             </li>
             <li>
-                <p>UNTOLD & Neversea:
-                Volunteer in the Emergency department of the festivals,
-                dealing with logistics and problem solving(2019)</p>
+                <p class="title">UNTOLD & Neversea 2019</p>
+                <p>Volunteer in the Emergency department of the festivals,
+                dealing with logistics and problem solving</p>
             </li>
         </ul>
         </div>
@@ -232,28 +138,31 @@
             </div>
             <ul>
                 <li>
-                    <p>&#8226; "DIGITAL ADVENTURES"
-                        Fundacja Active Kids (Youth NGO), Poland
-                        Training course on principles of experiential
+
+                    <p class="title">&#8226; 2021 Digital Transformation for Civic Engagement, Tallinn, Estonia</p>
+                    <p>Training course focusing on finding the problems causing the disengagement
+                    of young people while proposing alternative activities to promote their
+                        participation in civil engagements. </p>
+                </li>
+                <li>
+                    <p class="title">&#8226; 2020 "DIGITAL ADVENTURES"
+                        Fundacja Active Kids (Youth NGO), Poland</p>
+                    <p>Training course on principles of experiential
                         learning using digital tools in outdoor
-                        activities. (2020)
+                        activities.
                     </p>
                 </li>
                 <li>
-                    <p>&#8226; YOUTH EMPOWERMENT = EU FUTURE
-                        Društvo SMC Maribor, Slovenia
+                    <p class="title">&#8226; 2019 YOUTH EMPOWERMENT = EU FUTURE
+                        Društvo SMC Maribor, Slovenia</p>
+                    <p>
                         Training course on personal development
                         with the purpose of improving soft skills,
                         such as communication, problem-solving,
-                        leadership. (2019)
+                        leadership.
                     </p>
                 </li>
-                <li>
-                    &#8226; Digital Transformation for Civic Engagement, Tallinn, Estonia
-                    Training course focusing on finding the problems causing the disengagement
-                    of young people while proposing alternative activities to promote their
-                    participation in civil engagements. (2021)
-                </li>
+
 
             </ul>
         </div>
